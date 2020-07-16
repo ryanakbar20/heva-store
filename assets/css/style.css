@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'mlight';
+    src: url(../font/mlight.ttf);
+}
+
+@font-face {
+    font-family: 'mmedium';
+    src: url(../font/mmedium.ttf);
+}
+
+@font-face {
+    font-family: 'mregular';
+    src: url(../font/mregular.ttf);
+}
+
+@font-face {
+    font-family: 'lbold';
+    src: url(../font/Lora-Bold.ttf);
+}
+
+body {
+    font-family: 'mregular';
+}
+
+.navbar {
+    background-color: #171717;
+}
+
+.nav-item {
+    margin-right: 1rem;
+    font-family: 'mlight';
+}
+
+.nav-item.active a {
+    color: #F9B234 !important;
+    font-family: 'mmedium';
+}
+
+.nav-link span {
+    color: #F9B234;
+    font-family: 'mmedium';
+}
+
+.carousel {
+    background-color: #171717;
+}
+
+.carousel h1 {
+    font-family: 'lbold';
+}
+
+.carousel .btn {
+    font-family: 'mmedium';
+}
+
+.carousel p {
+    font-family: 'mlight';
+}
+
+.features {
+    background-color: #F6F7FB;
+}
+
+.features h3 {
+    font-family: 'lbold';
+    color: #0b0035;
+}
+
+.features p {
+    font-family: 'mlight';
+    color: #B7B7B7;
+}
+
+.designer h3 {
+    font-family: 'lbold';
+    color: #0b0035;
+}
+
+.designer p {
+    font-family: 'mlight';
+    color: #B7B7B7;
+}
+
+.breadcrumb {
+    margin-top: 6rem;
+    font-family: 'mmedium';
+}
+
+.breadcrumb .active {
+    color: #B7B7B7;
+
+}
+
+.figure .container-single-product {
+    max-width: 23rem;
+    margin: auto;
+    transform: translateY(-50px);
+    background-color: #FFFFFF;
+}
+
+.single h2 {
+    font-family: 'mmedium';
+    font-size: 28px;
+}
+
+.single h4 {
+    font-family: 'mlight';
+    font-size: 22px;
+    color: #B7B7B7;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.button-single button {
+    color: #FFFFFF;
+    font-family: 'mmedium';
+    display: block;
+}
+
+.input-group {
+    max-height: 36px;
+    max-width: 120px;
+}
+
+.input-group-text {
+    max-height: 36px;
+    max-width: 36px;
+}
+
+.input-group-text img {
+    max-height: 36px;
+    max-width: 36px;
+}
+
+.designed p {
+    font-size: 14px;
+    color: #B7B7B7;
+    font-family: 'mregular';
+}
+
+.profile img {
+    max-height: 65px;
+}
+
+.profile h5 {
+    font-size: 18px;
+    font-family: 'mregular';
+}
+
+.profile p {
+    font-size: 14px;
+    font-family: 'mregular';
+    margin-top: -3px;
+}
+
+.profile span {
+    font-size: 14px;
+    font-family: 'mregular';
+    color: #B7B7B7;
+}
+
+figure {
+    cursor: pointer;
+}
+
+.figure-image {
+    position: relative;
+}
+
+.figure-image a {
+    background-color: #1717178e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.figure-image a:hover {
+    opacity: 1;
+}
+
+.description-product {
+    background-color: #F6F7FB;
+    max-height: 350px;
+}
+
+.description-product p {
+    font-family: 'mlight';
+    font-size: 16px;
+    color: #868686;
+}
+
+.description-product .product-desc {
+    max-height: 330px;
+    background-color: #FFFFFF;
+}
+
+.description-product .product-review h5 {
+    font-size: 18px;
+    font-family: 'mmedium';
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.description-product .product-review p {
+    font-size: 14px;
+    font-family: 'mlight';
+}
+
+.similar-product {
+    margin-top: 6rem;
+}
+
+.similar-product h3 {
+    font-family: 'lbold';
+    color: #0b0035;
+}
+
+.similar-product p {
+    font-family: 'mlight';
+    color: #B7B7B7;
+}
+
+.similar-product .figure-caption h5 {
+    font-size: 22px;
+    font-family: 'mmedium';
+    color: #0b0035;
+}
+
+.similar-product .figure-caption p {
+    font-size: 18px;
+    font-family: 'mlight';
+    color: #868686;
+}
